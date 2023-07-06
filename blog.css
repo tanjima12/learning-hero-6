@@ -1,18 +1,99 @@
-div{
-    background-color: rgb(90, 72, 72);
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    font-family: poppins;
+}
+.design{
+    background: rgb(32,154,156);
+background: linear-gradient(0deg, rgba(32,154,156,1) 0%, rgba(93,106,102,0.9417016806722689) 52%);
     color:White;
     display: flex;
-    padding: 15px;
     justify-content:end;
+    list-style: none;
+    align-items: center;
+}
+.parent{
+    display:flex;
+    padding:20px;
 }
 .logo{
-    height: 50px;
+     height: 50px;
     /*margin: 10px 200px 15px 30px;*/
-    margin-right:470px;
+    margin-right:auto;
+    margin-left:25px;
 }
-.Menue:hover{
-    color:orange;
-}
-.Menue{
+.item{
+    margin:15px;
     cursor:grab;
 }
+.item:hover{
+    color:orange;
+    transition: all 0.50s ease;
+}
+
+.book{
+    display:flex;
+    list-style: none;
+    padding:5px;
+    }
+    .cover1,.cover2{
+        margin:30px;
+        padding:30px;
+        justify-content: space-around;
+    }
+    .cover1{
+        /* margin-right:100px; */
+        margin-left:100px;
+        font-size: xx-large;
+        writing-mode:vertical-lr;
+        margin-top:20px;
+    }
+    .cover2{
+        margin-left:70px;
+        font-weight: bold;
+        margin-right: 120px;
+        color:rgb(70, 100, 22) ;
+    }
+    h1{
+        text-align: center;
+        margin:0px;
+        padding:15px;
+        /* font-family: poppins; */
+    }
+    .mcover{
+        background-image: url("pexels-porapak-apichodilok-346885 (1).jpg");
+        background-position: cover;
+        height: 100vh;
+        /* margin-bottom:0px; */
+         padding:30px;
+         
+    }
+    .side{
+        margin-top:100px;
+    }
+    .form{
+        display:flex;
+        margin:0px;
+        margin-right:50px;
+        align-items: center;
+        justify-content: end;
+    }
+    .types{
+        margin:10px;
+        /* margin-left: 80px; */
+        color:rgb(113, 24, 24);
+        cursor:grabbing;
+
+    }
+    .types:hover{
+        color:chocolate;
+        transition: all 0.50s ease;
+    }
+    .btn{
+        background-color:rgb(199, 194, 187);
+        border-radius: 5px;
+    }
+    input{
+        text-align: center;
+        background-color: rgb(57, 65, 62);
+    }
+    
