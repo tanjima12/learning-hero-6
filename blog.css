@@ -1,0 +1,19 @@
+div{
+    background-color: rgb(90, 72, 72);
+    color:White;
+    display: flex;
+    padding: 15px;
+    justify-content:end;
+}
+.logo{
+    height: 50px;
+    /*margin: 10px 200px 15px 30px;*/
+    margin-right: 470px;
+    
+}
+.Menue:hover{
+    color:orange;
+}
+.Menue{
+    cursor:grab;
+}
