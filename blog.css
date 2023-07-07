@@ -96,4 +96,12 @@ background: linear-gradient(0deg, rgba(32,154,156,1) 0%, rgba(93,106,102,0.94170
         text-align: center;
         background-color: rgb(57, 65, 62);
     }
-    
+    .container{
+        display:flex;
+        justify-content:space-around;
+        align-items: center;
+        flex-direction: row-reverse;
+    }
+    .text{
+        margin-right:40px;
+    }
